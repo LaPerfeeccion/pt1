@@ -1,0 +1,7 @@
+.dark{
+    background-color: rgb(255, 249, 249);
+    color: rgb(0, 0, 0);
+}
+.dark::after{
+    background-color: black;
+}

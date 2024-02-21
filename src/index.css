@@ -1,0 +1,12 @@
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.pinimg.com/originals/1d/9c/35/1d9c35a7985b91c41f9f73eaa1415247.jpg);
+  background-size: cover;
+}

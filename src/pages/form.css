@@ -1,0 +1,44 @@
+.main {
+    height: 100vh;
+  }
+  
+  .welcome {
+    width: 50%;
+  }
+  
+  .container {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    margin: auto !important;
+    width: auto !important;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-beige-flores-hojas_197463-3346.jpg?w=2000);
+  }
+  
+  
+  .glass {
+    color: #fff;
+    background: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0));
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255, 0);
+    box-shadow: 0px 8px 32px 0 black;
+    text-align: justify;
+  }
+  .glass .avatar{
+    display: none;    
+}
+
+  @media screen and (max-width: 490px) {
+    .welcome {
+        display: none !important;
+    }
+
+    .glass .avatar{
+        display: flex;    
+    }
+  }
